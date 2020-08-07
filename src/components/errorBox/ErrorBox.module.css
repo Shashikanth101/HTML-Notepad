@@ -1,0 +1,23 @@
+.centerContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  border-radius: 5px;
+  background-color: rgb(247 78 107);
+  color: white;
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px auto;
+  padding: 5px;
+}
+
+.errorSymbol {
+  width: 24.5px;
+  margin: 5px 10px 5px 5px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  text-align: center;
+}

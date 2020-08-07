@@ -1,0 +1,33 @@
+.landingPage {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.landingPageContent {
+  max-width: 1100px;
+  margin-top: 5%;
+}
+
+.landingPageHeading {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.landingPageSubHeading{
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 699px) {
+  .landingPageContent {
+    width: 90%;
+    margin-top: 15%;
+  }
+
+  .landingPageSubHeading {
+    font-size: 1.2rem;
+  }
+}

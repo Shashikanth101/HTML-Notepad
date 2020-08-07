@@ -1,0 +1,7 @@
+.previewBox {
+  max-width: 700px;
+  margin: 10px auto;
+  padding: 10px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+}

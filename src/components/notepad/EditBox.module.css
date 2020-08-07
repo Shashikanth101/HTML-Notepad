@@ -1,0 +1,20 @@
+.textBoxContainer {
+  width: 99%;
+  padding: 0 0.5%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.textBox {
+  max-width: 700px;
+  margin: 10px auto;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  padding: 10px;
+}
+
+.textBox:focus {
+  outline: none;
+}

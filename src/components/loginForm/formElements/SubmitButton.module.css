@@ -1,0 +1,15 @@
+.loginButton {
+  width: 350px;
+  margin: 25px 10px;
+  padding: 10px;
+  font-size: 1.2rem;
+  background-color: var(--udemy-red);
+  color: var(--white);
+  border: 0;
+  border-radius: 3px;
+}
+
+.loginButton:hover {
+  background-color: var(--udemy-red-hover);
+  cursor: pointer;
+}

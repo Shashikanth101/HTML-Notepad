@@ -1,0 +1,56 @@
+.buttonContainer {
+  margin: 10px;
+}
+
+.button {
+  padding: 5px 10px;
+  border-radius: 3px;
+  color: var(--white);
+  border: 1px solid;
+}
+
+.button:hover {
+  cursor: pointer;
+  background: transparent;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.default {
+  background-color: var(--next-js-blue);
+  border-color: var(--next-js-blue);
+}
+
+.default:hover {
+  color: var(--next-js-blue);
+}
+
+.calm {
+  background-color: var(--yellow-dark);
+  border-color: var(--yellow-dark);
+}
+
+.calm:hover {
+  color: var(--yellow-dark);
+}
+
+.danger {
+  color: var(--covid19india-red);
+  background-color: var(--covid19india-pink-light);
+  border-color: var(--covid19india-red);
+}
+
+.danger:hover {
+  background-color: var(--white);
+}
+
+.green {
+  background-color: var(--hackerrank-green);
+  border-color: var(--hackerrank-green);
+}
+
+.green:hover {
+  color: var(--hackerrank-green);
+}

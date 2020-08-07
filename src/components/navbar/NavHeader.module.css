@@ -1,0 +1,82 @@
+.nav {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: var(--nav);
+  color: var(--white);
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.navContainer {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 15px 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.appTitleComponent {
+  display: flex;
+  align-items: center;
+}
+
+.appLogo {
+  margin-right: 5px;
+  font-size: 1.5rem;
+}
+
+.appName {
+  margin-left: 5px;
+  font-size: 1.5rem;
+}
+
+.loginButton {
+  font-size: 1.2rem;
+  background-color: var(--nav);
+  color: var(--white);
+  border: 0 var(--nav) solid;
+  border-radius: 2px;
+  padding: 5px 10px;
+}
+
+.loginButton:hover {
+  background-color: var(--nav-hover);
+  cursor: pointer;
+}
+
+.loginButton:focus {
+  outline: none;
+}
+
+.navIconsContainer {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.navIcon {
+  width: 1.2rem;
+  height: auto;
+  margin: 5px 10px;
+}
+
+.navIcon:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 699px) {
+  .navContainer {
+    padding: 5px;
+  }
+
+  .appLogo {
+    font-size: 1.2rem;
+  }
+
+  .appName {
+    font-size: 1.5rem;
+  }
+}

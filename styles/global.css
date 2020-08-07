@@ -1,0 +1,54 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+    sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --white: #fff;
+  --space-gray: #222;
+  --yellow: #ebf707;
+  --yellow-dark: #ffb71c;
+  --nav: #222;
+  --nav-hover: #555;
+
+  /* Udemy */
+  --udemy-red: #fc5252;
+  --udemy-red-hover: #992337;
+  --udemy-blue-link: #007791;
+  --udemy-blue-link-hover: #003845;
+
+  /* Hackerrank */
+  --hackerrank-green: #1ba94c;
+
+  /* Next.js */
+  --next-js-blue: #1983ff;
+  --next-js-blue-hover: #0070f3;
+
+  /* covid19india.org */
+  --covid19india-pink-lighter: #fdf2f2;
+  --covid19india-pink-light: #ffe0e6;
+  --covid19india-red: #e23129;
+  --covid19india-green-light: #a9dbb5;
+  --covid19india-green: #2aa747;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.anchor-links {
+  color: var(--udemy-blue-link);
+}
+
+.anchor-links:hover {
+  color: var(--udemy-blue-link-hover);
+  cursor: pointer;
+}

@@ -1,0 +1,53 @@
+.listContainer {
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+.listItem {
+  margin: 10px 5px;
+  padding: 10px 15px;
+  max-width: 670px;
+  border: 1px solid #bbb;
+  border-radius: 3px;
+  background-color: #fff;
+  color: var(--next-js-blue);
+  box-shadow: 1px 1px 5px #ccc;
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.listItem:hover{
+  color: var(--next-js-blue-hover);
+}
+
+.redirectLink {
+  font-weight: bold;
+  max-width: 90%;
+}
+
+.iconSvg {
+  width: 1rem;
+}
+
+.deleteButton {
+  background-color: var(--covid19india-pink-light);
+  margin-left: 5px;
+  border-radius: 3px;
+  padding: 0 5px;
+}
+
+.deleteButton:hover {
+  cursor: pointer;
+  background-color: var(--udemy-red);
+}
+
+.emptyList {
+  max-width: 400px;
+  font-size: 0.8rem;
+  color: #555; 
+  margin: 20px auto; 
+  text-align: center;
+}

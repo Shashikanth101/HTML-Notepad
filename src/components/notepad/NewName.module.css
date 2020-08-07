@@ -1,0 +1,17 @@
+.textInputContainer {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.textInput {
+  margin: 10px 0;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  font-size: 0.95rem;
+  padding: 5px;
+  color: #222;
+}
+
+.textInput:focus {
+  outline: none;
+}

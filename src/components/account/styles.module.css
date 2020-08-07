@@ -1,0 +1,118 @@
+.container {
+  max-width: 350px;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+.selector {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  font-size: 1.2rem;
+}
+
+.closeButton {
+  border: 0;
+  border-radius: 3px;
+  background-color: #fff;
+  color: #666;
+  margin: 5px 2px;
+  padding: 2px 8px;
+  font-size: 1.5rem;
+  font-family: monospace;
+  transform: rotate(-90deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.closeButton:hover {
+  cursor: pointer;
+  background-color: #eee;
+}
+
+.closeButton:focus {
+  outline: none;
+}
+
+.dropDown {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5px 0 10px;
+}
+
+.input {
+  margin: 5px 0;
+  padding: 5px;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.choiceBox {
+  width: 150px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+  padding: 5px 0;
+}
+
+.button {
+  border: 0;
+  border-radius: 3px;
+  padding: 3px 6px;
+  font-size: 0.95rem;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.yes {
+  color: white;
+  background-color: var(--next-js-blue);
+}
+
+.yes:hover {
+  cursor: pointer;
+  background-color: var(--next-js-blue-hover);
+}
+
+.no {
+  border: 1px solid #555;
+  background-color: #eee;
+}
+
+.no:hover {
+  cursor: pointer;
+  background-color: #ddd;
+}
+
+.confirmationMessage {
+  font-size: 0.9rem;
+  margin: 5px 0 -3px 0;
+}
+
+.danger {
+  background-color: var(--udemy-red);
+  color: #fff;
+  padding: 6px;
+}
+
+.danger:hover {
+  cursor: pointer;
+  background-color: var(--udemy-red-hover);
+}
+
+.error {
+  font-size: 0.9rem;
+  color: var(--udemy-red);
+  width: 330px;
+  text-align: center;
+}

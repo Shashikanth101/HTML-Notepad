@@ -1,0 +1,21 @@
+.buttonContainer {
+  margin: 10px;
+}
+
+.button {
+  padding: 5px 10px;
+  background-color: var(--next-js-blue);
+  color: var(--white);
+  border: 1px solid var(--next-js-blue);
+  border-radius: 3px;
+}
+
+.button:hover {
+  cursor: pointer;
+  background: transparent;
+  color: var(--next-js-blue);
+}
+
+.button:focus {
+  outline: none;
+}

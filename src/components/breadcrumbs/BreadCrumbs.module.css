@@ -1,0 +1,33 @@
+.container {
+  width: 100;
+  background-color: #eee;
+}
+
+.body {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 7px 0;
+  display: flex;
+}
+
+.itemBody {
+  padding: 3px 3px;
+}
+
+.item {
+  margin: 3px 6px;
+  color: var(--next-js-blue);
+}
+
+.nextItemIndicator {
+  margin: 3px 5px;
+  color: #444;
+}
+
+.prevItem {
+  font-weight: normal;
+}
+
+.activeItem {
+  font-weight: bold;
+}
